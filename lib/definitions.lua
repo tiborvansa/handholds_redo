@@ -20,7 +20,7 @@ minetest.register_node("handholds_redo:holds", {
 	inventory_image = "handholds_holds.png",
 	wield_image = "handholds_holds.png",
 	tiles = { "handholds_holds.png" },
-	use_texture_alpha = true,
+	use_texture_alpha = "clip",
 	drawtype = "nodebox",
 	paramtype = "light",
 	paramtype2 = "wallmounted",
